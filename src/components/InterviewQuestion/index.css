@@ -1,0 +1,31 @@
+/* Write you CSS here */
+span {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 6px;
+}
+li {
+  list-style-type: none;
+  /* border: 2px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.alpDiff {
+  background-color: #0284c716;
+}
+.alpLan {
+  background-color: #9333ea16;
+}
+.showHideDiv {
+  display: flex;
+  max-width: 65px;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 4px;
+}
+.spe {
+  margin: 0px;
+  padding-right: 5px;
+}

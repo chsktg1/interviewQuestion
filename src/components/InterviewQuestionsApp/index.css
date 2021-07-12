@@ -1,0 +1,12 @@
+/* Write you CSS here */
+.filters {
+  display: flex;
+}
+.fil-data {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+#veryBigImg {
+  max-width: 330px;
+}
