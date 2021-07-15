@@ -83,18 +83,6 @@ class InterviewQuestionsApp extends Component {
 
         <div className="filters">
           <div className="fil-data">
-            <label htmlFor="diff">DIFFICULTY LEVEL</label>
-            <select onChange={this.changed} id="diff">
-              {levelsData.map(eachLevel => (
-                <Filters
-                  eachLevel={eachLevel}
-                  key={eachLevel.id}
-                  data="level"
-                />
-              ))}
-            </select>
-          </div>
-          <div className="fil-data">
             <label htmlFor="lang">LANGUAGE</label>
             <select onChange={this.changed} id="lang">
               {categoryData.map(eachLevel => (
@@ -102,6 +90,19 @@ class InterviewQuestionsApp extends Component {
                   eachLevel={eachLevel}
                   key={eachLevel.id}
                   data="language"
+                />
+              ))}
+            </select>
+          </div>
+
+          <div className="fil-data">
+            <label htmlFor="diff">DIFFICULTY LEVEL</label>
+            <select onChange={this.changed} id="diff">
+              {levelsData.map(eachLevel => (
+                <Filters
+                  eachLevel={eachLevel}
+                  key={eachLevel.id}
+                  data="level"
                 />
               ))}
             </select>
